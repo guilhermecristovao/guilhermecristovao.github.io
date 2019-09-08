@@ -64,7 +64,8 @@ section {
 /*Layout page*/
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: cursive;
 }
 
 /* Style the side navigation */
