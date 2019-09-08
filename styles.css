@@ -65,7 +65,7 @@ section {
 
 * {
   box-sizing: border-box;
-  font-family: cursive;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 /* Style the side navigation */
