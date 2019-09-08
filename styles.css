@@ -124,7 +124,7 @@ section {
 
 /*FONTE MOBILE*/
 #someOtherElement {
-  font-family: Times New Roman;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .mobile .body,
@@ -132,6 +132,6 @@ section {
 .mobile .main, 
 .mobile .footer, 
 .mobile #someOtherElement {
-font-family: "Comic Sans MS", "Comic Sans", cursive;
+font-family: 'Open Sans', sans-serif;
 }
 /*-------------------------------------*/
