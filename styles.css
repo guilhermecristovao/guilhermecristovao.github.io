@@ -12,11 +12,11 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.content{
+/*.content{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-}
+}*/
 
 /*Voltar ao Topo
 #subir{
@@ -64,10 +64,10 @@ section {
 }
 /*Layout page*/
 
-* {
+/* {
   box-sizing: border-box;
   font-family: "Comic Sans MS", cursive, sans-serif;
-}
+}*/
 
 /* Style the side navigation 
 .sidenav {
