@@ -120,3 +120,17 @@ section {
     margin-top: 200px;
 
 }
+
+
+
+#someOtherElement {
+  font-family: Times New Roman;
+}
+
+.mobile .body,
+.mobile .header,
+.mobile .main, 
+.mobile .footer, 
+.mobile #someOtherElement {
+font-family: 'Open Sans', sans-serif;
+}

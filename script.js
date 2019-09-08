@@ -6,22 +6,8 @@ $(document).ready(function() {
 	});
 });
 
-//NAVBAR COLLAPSE
-(function ($) {
-    $(function () {
-        $('nav ul li a:not(:only-child)').click(function (e) {
-            $(this).siblings('.nav-dropdown').toggle();
-            $('.dropdown').not($(this).siblings()).hide();
-            e.stopPropagation();
-        });
-        $('html').click(function () {
-            $('.nav-dropdown').hide();
-        });
-        $('#nav-toggle').click(function () {
-            $('nav ul').slideToggle();
-        });
-        $('#nav-toggle').on('click', function () {
-            this.classList.toggle('active');
-        });
-    });
-})(jQuery);
+// Check for userAgent 
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    // set the body class
+    document.getElementsByTagName('body')[0].className+='mobile'
+  }
