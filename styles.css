@@ -1,0 +1,29 @@
+#fotoPerfil{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.content{
+    text-align: center;
+}
+section {
+    /*height: <valor>; Tamanho da Section*/
+    background-image: linear-gradient(white, rgb(222, 230, 230));
+}
+/*Layout page*/
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/*Format Skills*/
+.formatSkills{
+    text-align: center;
+    margin-top: 200px;
+}
+.formatCourse{
+    text-align: center;
+    margin-top: 200px;
+}
+.formatContact{
+    text-align: center;
+    margin-top: 200px;
+}
