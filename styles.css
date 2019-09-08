@@ -132,6 +132,6 @@ section {
 .mobile .main, 
 .mobile .footer, 
 .mobile #someOtherElement {
-font-family: 'Open Sans', sans-serif;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 /*-------------------------------------*/
