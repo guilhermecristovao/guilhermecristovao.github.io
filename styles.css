@@ -30,9 +30,9 @@ section {
 /*Back to top*/
 #subirTopo {
     text-decoration: none;
+    margin: 30px;
     background: rgba(30,156,161,.9);
-    bottom: 30px;
-    right: 30px;
+    display:block;
     color: #fff;
     text-align: center;
     cursor: pointer;
@@ -40,12 +40,8 @@ section {
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
-    position: fixed;
+    position: relative;
     border: 0;
     font-family: sans-serif;
     opacity: .8;
-}
-    
-#subirTopo:hover {
-    opacity:1;
 }
